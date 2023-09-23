@@ -1,0 +1,124 @@
+@media (max-width: 767px) {
+
+    .nav{
+        display: none;
+    }
+
+    .menu-mobile-icon{
+        display: flex;
+        justify-content: right;
+    }
+
+    .menu-mobile-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .menu-mobile-icon i{
+        color: var(--color-text-white);
+        font-size: 25px;
+    }
+    
+    .menu-mobile.open{
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-mobile ul{
+        list-style: none;
+     }
+
+    .menu-mobile ul a{
+        display: block;
+        color: var(--color-text-white);
+        text-decoration: none;
+        text-align: center;
+        border-bottom: 2px solid var(--color-primary);
+        margin: 20px 0;
+        padding: 0 10px;
+    }
+
+    .max{
+        width: 100%;
+    }
+
+    .logo h1{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .nav ul{
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .nav ul li a{
+        text-align: center;
+    }
+
+    .banner h1{
+        color: var(--color-primary);
+        text-align: center;
+        margin-top: 100px;
+        font-size: 20px;
+    }
+    
+    .banner h2{
+        color: var(--color-text-white);
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    .banner h3{
+        color: var(--color-text-white);
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .grid1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .text-sobre{
+        text-align: justify;
+        margin: 0 20px;
+    }
+
+    .text-sobre h1{
+        text-align: center;
+    }
+
+    .profile{
+        width: 50%;
+        margin: 20px;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+
+    .card p{
+        text-align: justify;
+    }
+
+    .form-contato{
+        margin: 0 20px 20px !important;
+    }
+
+    .info-contato{
+        margin: 0 20px;
+    }
+
+    .footer-logo h1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .social{
+        text-align: center;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+    <title>Advogado</title>
+</head>
+<body>
+
+    <section class="header">
+        <div class="max">
+            <div class="top">
+                <div class="logo">
+                    <h1>SUA LOGO</h1>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="menu-mobile-icon">
+                    <button onclick="menu()"><i class="fa-solid fa-bars"></i></button>
+                </div>
+            </div>
+            <div class="menu-mobile close">
+                <div>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a onclick="menu()" href="#sobre">Sobre</a></li>
+                        <li><a onclick="menu()" href="#servicos">Serviços</a></li>
+                        <li><a onclick="menu()" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="max">
+            <div class="destaque">
+                <h1>ESPECIALISTA EM</h1>
+                <h2>Direito</h2>
+                <h3 id="bannerh3"></h3>
+                <div class="bg-btn"><a class="btn" href="#contato">Fale Conosco</a></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="max">
+            <div class="grid2 grid1">
+                <div class="text-sobre">
+                    <h1>Sobre mim</h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio dignissimos ipsam sed totam porro culpa, eum sit rem eius quidem possimus impedit illo saepe quos quas earum vero. Magnam, molestiae.
+                        <br><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum consequuntur, eaque dignissimos deserunt, est soluta porro pariatur tempore minus expedita ducimus praesentium dolore aut aliquam temporibus facilis eum, a libero.
+                        <br><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel corrupti, mollitia veritatis nobis tempore eveniet enim at eum! Quam facere ipsam deleniti repellat reiciendis, quaerat porro voluptatem? Ab, ipsam minus.
+                    </p>
+                </div>
+
+                <div class="img-sobre">
+                    <img class="profile" src="./img/profile.png" alt="Profile IMG">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="servicos" id="servicos">
+        <div class="max">
+            <h1>Serviços</h1>
+        </div>
+
+        <div class="grid3 grid1">
+            <div class="card">
+                <div class="card-title"><i class="icon fa-solid fa-scale-balanced"></i><h2>Serviço</h2></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos neque aut nulla repudiandae necessitatibus eligendi provident ratione ea, ducimus voluptate alias tenetur molestiae deleniti perferendis dignissimos ipsam voluptates laudantium corrupti?</p>
+            </div>
+            <div class="card">
+                <div class="card-title"><i class="icon fa-solid fa-scale-balanced"></i><h2>Serviço</h2></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos neque aut nulla repudiandae necessitatibus eligendi provident ratione ea, ducimus voluptate alias tenetur molestiae deleniti perferendis dignissimos ipsam voluptates laudantium corrupti?</p>
+            </div>
+            <div class="card">
+                <div class="card-title"><i class="icon fa-solid fa-scale-balanced"></i><h2>Serviço</h2></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos neque aut nulla repudiandae necessitatibus eligendi provident ratione ea, ducimus voluptate alias tenetur molestiae deleniti perferendis dignissimos ipsam voluptates laudantium corrupti?</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <div class="max">
+            <div class="grid2 grid1">
+                <div class="form-contato">
+                    <h1><i class="fa-solid fa-envelope"></i> Fale conosco</h1>
+                    <form>
+                        <input type="text" placeholder="Nome">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Telefone">
+                        <input type="text" placeholder="Assunto">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                        <input type="button" value="Enviar">
+                    </form>
+                </div>
+
+                <div class="info-contato">
+                    <h1><div class="bg-ico"><i class="fa-solid fa-location-dot"></i></div>Nosso Escritório:</h1>
+                    <p>Nome da Rua, 000 - Centro - Nome da Cidade - Estado - 00000-000</p>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31656393.254779518!2d-51.316680000000005!3d-14.40952615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9c59c7ebcc28cf%3A0x295a1506f2293e63!2sBrasil!5e0!3m2!1spt-BR!2sbr!4v1695308639061!5m2!1spt-BR!2sbr" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="max">
+            <div class="grid3 grid1">
+                <div class="footer-logo">
+                    <h1>SUA LOGO</h1>
+                </div>
+
+                <div class="footer-contato">
+                    <h1><i class="fa-solid fa-phone"></i> +55 00 90000-0000</h1>
+                    <p><a href="mailto:contato@contato.com">contato@contato.com</a></p>
+                </div>
+
+                <div class="social">
+                    <h1>Redes Sociais:</h1>
+                    <p><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></p>
+                    <p><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></p>
+                    <p><a href="#"><i class="fa-brands fa-linkedin"></i> Linkedin</a></p>
+                </div>
+            </div>
+            <div class="copy">
+                <p>Este site foi desenvolvido por: <b><a href="https://isaquefagundes.com" target="_blank">Isaque Fagundes</a></b> <br><br> <b class="logo-dstq">SUA LOGO</b>&copy; 2023 - Todos os direitos reservados. </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/8def7e26c9.js" crossorigin="anonymous"></script>
+    <script src="./js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
